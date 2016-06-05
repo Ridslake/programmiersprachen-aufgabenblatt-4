@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lyrrok/programmiersprachen-aufgabenblatt-4/source/List.hpp
+cstddef
+-
+
+/home/lyrrok/programmiersprachen-aufgabenblatt-4/source/TestList.cpp
+List.hpp
+/home/lyrrok/programmiersprachen-aufgabenblatt-4/source/List.hpp
+
