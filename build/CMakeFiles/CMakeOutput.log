@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/vade9658/programmierspra
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_2af1e/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_2af1e.dir/build.make CMakeFiles/cmTC_2af1e.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_a2c88/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_a2c88.dir/build.make CMakeFiles/cmTC_a2c88.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_2af1e.dir/testCCompiler.c.o
-/usr/sbin/cc     -o CMakeFiles/cmTC_2af1e.dir/testCCompiler.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_2af1e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2af1e.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_2af1e.dir/testCCompiler.c.o  -o cmTC_2af1e -rdynamic 
+Building C object CMakeFiles/cmTC_a2c88.dir/testCCompiler.c.o
+/usr/sbin/cc     -o CMakeFiles/cmTC_a2c88.dir/testCCompiler.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a2c88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2c88.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_a2c88.dir/testCCompiler.c.o  -o cmTC_a2c88 -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_245e8/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_245e8.dir/build.make CMakeFiles/cmTC_245e8.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_60d7e/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_60d7e.dir/build.make CMakeFiles/cmTC_60d7e.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o
-/usr/sbin/cc     -o CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.4/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_245e8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_245e8.dir/link.txt --verbose=1
-/usr/sbin/cc      -v CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o  -o cmTC_245e8 -rdynamic  
+Building C object CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o
+/usr/sbin/cc     -o CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_60d7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60d7e.dir/link.txt --verbose=1
+/usr/sbin/cc      -v CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o  -o cmTC_60d7e -rdynamic  
 Es werden eingebaute Spezifikationen verwendet.
 COLLECT_GCC=/usr/sbin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
@@ -59,8 +59,8 @@ Thread-Modell: posix
 gcc-Version 5.3.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_245e8' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchP2wBe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_245e8 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60d7e' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQLC0TU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_60d7e /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_245e8/fast"]
-  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_245e8.dir/build.make CMakeFiles/cmTC_245e8.dir/build]
+  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_60d7e/fast"]
+  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_60d7e.dir/build.make CMakeFiles/cmTC_60d7e.dir/build]
   ignore line: [make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten]
-  ignore line: [Building C object CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/sbin/cc     -o CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_245e8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_245e8.dir/link.txt --verbose=1]
-  ignore line: [/usr/sbin/cc      -v CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o  -o cmTC_245e8 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/sbin/cc     -o CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_60d7e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60d7e.dir/link.txt --verbose=1]
+  ignore line: [/usr/sbin/cc      -v CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o  -o cmTC_60d7e -rdynamic  ]
   ignore line: [Es werden eingebaute Spezifikationen verwendet.]
   ignore line: [COLLECT_GCC=/usr/sbin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc-Version 5.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_245e8' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchP2wBe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_245e8 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60d7e' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQLC0TU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_60d7e /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cchP2wBe.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQLC0TU.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_245e8] ==> ignore
+    arg [cmTC_60d7e] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..]
-    arg [CMakeFiles/cmTC_245e8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_60d7e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -146,14 +146,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_51cb4/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_51cb4.dir/build.make CMakeFiles/cmTC_51cb4.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_f0835/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_f0835.dir/build.make CMakeFiles/cmTC_f0835.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_51cb4.dir/feature_tests.c.o
-/usr/sbin/cc    -std=c11 -o CMakeFiles/cmTC_51cb4.dir/feature_tests.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_51cb4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51cb4.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_51cb4.dir/feature_tests.c.o  -o cmTC_51cb4 -rdynamic 
+Building C object CMakeFiles/cmTC_f0835.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c11 -o CMakeFiles/cmTC_f0835.dir/feature_tests.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f0835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0835.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_f0835.dir/feature_tests.c.o  -o cmTC_f0835 -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
@@ -166,14 +166,14 @@ make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_3f06b/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_3f06b.dir/build.make CMakeFiles/cmTC_3f06b.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_bfc57/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_bfc57.dir/build.make CMakeFiles/cmTC_bfc57.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_3f06b.dir/feature_tests.c.o
-/usr/sbin/cc    -std=c99 -o CMakeFiles/cmTC_3f06b.dir/feature_tests.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3f06b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f06b.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_3f06b.dir/feature_tests.c.o  -o cmTC_3f06b -rdynamic 
+Building C object CMakeFiles/cmTC_bfc57.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c99 -o CMakeFiles/cmTC_bfc57.dir/feature_tests.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bfc57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfc57.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_bfc57.dir/feature_tests.c.o  -o cmTC_bfc57 -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
@@ -186,14 +186,14 @@ make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_d3e27/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_d3e27.dir/build.make CMakeFiles/cmTC_d3e27.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_12311/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_12311.dir/build.make CMakeFiles/cmTC_12311.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_d3e27.dir/feature_tests.c.o
-/usr/sbin/cc    -std=c90 -o CMakeFiles/cmTC_d3e27.dir/feature_tests.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d3e27
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3e27.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_d3e27.dir/feature_tests.c.o  -o cmTC_d3e27 -rdynamic 
+Building C object CMakeFiles/cmTC_12311.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c90 -o CMakeFiles/cmTC_12311.dir/feature_tests.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_12311
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12311.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_12311.dir/feature_tests.c.o  -o cmTC_12311 -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
@@ -204,28 +204,28 @@ make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_ea1b5/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_ea1b5.dir/build.make CMakeFiles/cmTC_ea1b5.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_0673e/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_0673e.dir/build.make CMakeFiles/cmTC_0673e.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_ea1b5.dir/testCXXCompiler.cxx.o
-/usr/sbin/c++      -o CMakeFiles/cmTC_ea1b5.dir/testCXXCompiler.cxx.o -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ea1b5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea1b5.dir/link.txt --verbose=1
-/usr/sbin/c++        CMakeFiles/cmTC_ea1b5.dir/testCXXCompiler.cxx.o  -o cmTC_ea1b5 -rdynamic 
+Building CXX object CMakeFiles/cmTC_0673e.dir/testCXXCompiler.cxx.o
+/usr/sbin/c++      -o CMakeFiles/cmTC_0673e.dir/testCXXCompiler.cxx.o -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0673e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0673e.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_0673e.dir/testCXXCompiler.cxx.o  -o cmTC_0673e -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_4692e/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_4692e.dir/build.make CMakeFiles/cmTC_4692e.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_5d82d/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_5d82d.dir/build.make CMakeFiles/cmTC_5d82d.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o
-/usr/sbin/c++      -o CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_4692e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4692e.dir/link.txt --verbose=1
-/usr/sbin/c++       -v CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4692e -rdynamic  
+Building CXX object CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/sbin/c++      -o CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5d82d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d82d.dir/link.txt --verbose=1
+/usr/sbin/c++       -v CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5d82d -rdynamic  
 Es werden eingebaute Spezifikationen verwendet.
 COLLECT_GCC=/usr/sbin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
@@ -235,8 +235,8 @@ Thread-Modell: posix
 gcc-Version 5.3.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4692e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL6QIzP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4692e /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d82d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmF2vfq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5d82d /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
@@ -244,14 +244,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_4692e/fast"]
-  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_4692e.dir/build.make CMakeFiles/cmTC_4692e.dir/build]
+  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_5d82d/fast"]
+  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_5d82d.dir/build.make CMakeFiles/cmTC_5d82d.dir/build]
   ignore line: [make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten]
-  ignore line: [Building CXX object CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/sbin/c++      -o CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_4692e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4692e.dir/link.txt --verbose=1]
-  ignore line: [/usr/sbin/c++       -v CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4692e -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/sbin/c++      -o CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5d82d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d82d.dir/link.txt --verbose=1]
+  ignore line: [/usr/sbin/c++       -v CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5d82d -rdynamic  ]
   ignore line: [Es werden eingebaute Spezifikationen verwendet.]
   ignore line: [COLLECT_GCC=/usr/sbin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper]
@@ -261,13 +261,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc-Version 5.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4692e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL6QIzP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4692e /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d82d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmF2vfq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5d82d /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccL6QIzP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmF2vfq.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -282,7 +282,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4692e] ==> ignore
+    arg [cmTC_5d82d] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o] ==> ignore
@@ -291,7 +291,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..]
-    arg [CMakeFiles/cmTC_4692e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5d82d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -320,14 +320,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_10875/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_10875.dir/build.make CMakeFiles/cmTC_10875.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_d6bd6/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_d6bd6.dir/build.make CMakeFiles/cmTC_d6bd6.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_10875.dir/feature_tests.cxx.o
-/usr/sbin/c++     -std=c++14 -o CMakeFiles/cmTC_10875.dir/feature_tests.cxx.o -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_10875
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10875.dir/link.txt --verbose=1
-/usr/sbin/c++        CMakeFiles/cmTC_10875.dir/feature_tests.cxx.o  -o cmTC_10875 -rdynamic 
+Building CXX object CMakeFiles/cmTC_d6bd6.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++14 -o CMakeFiles/cmTC_d6bd6.dir/feature_tests.cxx.o -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d6bd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6bd6.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_d6bd6.dir/feature_tests.cxx.o  -o cmTC_d6bd6 -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
@@ -393,14 +393,14 @@ make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_68a34/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_68a34.dir/build.make CMakeFiles/cmTC_68a34.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_7366d/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_7366d.dir/build.make CMakeFiles/cmTC_7366d.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_68a34.dir/feature_tests.cxx.o
-/usr/sbin/c++     -std=c++11 -o CMakeFiles/cmTC_68a34.dir/feature_tests.cxx.o -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_68a34
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68a34.dir/link.txt --verbose=1
-/usr/sbin/c++        CMakeFiles/cmTC_68a34.dir/feature_tests.cxx.o  -o cmTC_68a34 -rdynamic 
+Building CXX object CMakeFiles/cmTC_7366d.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++11 -o CMakeFiles/cmTC_7366d.dir/feature_tests.cxx.o -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7366d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7366d.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_7366d.dir/feature_tests.cxx.o  -o cmTC_7366d -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
@@ -466,14 +466,14 @@ make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_0811c/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_0811c.dir/build.make CMakeFiles/cmTC_0811c.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_ff19b/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_ff19b.dir/build.make CMakeFiles/cmTC_ff19b.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_0811c.dir/feature_tests.cxx.o
-/usr/sbin/c++     -std=c++98 -o CMakeFiles/cmTC_0811c.dir/feature_tests.cxx.o -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0811c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0811c.dir/link.txt --verbose=1
-/usr/sbin/c++        CMakeFiles/cmTC_0811c.dir/feature_tests.cxx.o  -o cmTC_0811c -rdynamic 
+Building CXX object CMakeFiles/cmTC_ff19b.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++98 -o CMakeFiles/cmTC_ff19b.dir/feature_tests.cxx.o -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ff19b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff19b.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_ff19b.dir/feature_tests.cxx.o  -o cmTC_ff19b -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
@@ -537,140 +537,140 @@ make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_53ac0/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_53ac0.dir/build.make CMakeFiles/cmTC_53ac0.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_10472/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_10472.dir/build.make CMakeFiles/cmTC_10472.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_53ac0.dir/CheckIncludeFile.c.o
-/usr/sbin/cc     -o CMakeFiles/cmTC_53ac0.dir/CheckIncludeFile.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_53ac0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53ac0.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_53ac0.dir/CheckIncludeFile.c.o  -o cmTC_53ac0 -rdynamic 
+Building C object CMakeFiles/cmTC_10472.dir/CheckIncludeFile.c.o
+/usr/sbin/cc     -o CMakeFiles/cmTC_10472.dir/CheckIncludeFile.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_10472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10472.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_10472.dir/CheckIncludeFile.c.o  -o cmTC_10472 -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_354b2/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_354b2.dir/build.make CMakeFiles/cmTC_354b2.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_53387/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_53387.dir/build.make CMakeFiles/cmTC_53387.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_354b2.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_354b2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_354b2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_354b2.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_354b2.dir/CheckFunctionExists.c.o  -o cmTC_354b2 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_53387.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_53387.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_53387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53387.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_53387.dir/CheckFunctionExists.c.o  -o cmTC_53387 -rdynamic -lpthread 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_62cfc/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_62cfc.dir/build.make CMakeFiles/cmTC_62cfc.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_65bf5/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_65bf5.dir/build.make CMakeFiles/cmTC_65bf5.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_62cfc.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_62cfc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_62cfc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62cfc.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_62cfc.dir/CheckFunctionExists.c.o  -o cmTC_62cfc -rdynamic /usr/lib64/libX11.so /usr/lib64/libXext.so 
+Building C object CMakeFiles/cmTC_65bf5.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_65bf5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_65bf5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65bf5.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_65bf5.dir/CheckFunctionExists.c.o  -o cmTC_65bf5 -rdynamic /usr/lib64/libX11.so /usr/lib64/libXext.so 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_7ce01/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_7ce01.dir/build.make CMakeFiles/cmTC_7ce01.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_e6c1c/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_e6c1c.dir/build.make CMakeFiles/cmTC_e6c1c.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_7ce01.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_7ce01.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7ce01
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce01.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_7ce01.dir/CheckFunctionExists.c.o  -o cmTC_7ce01 -rdynamic 
+Building C object CMakeFiles/cmTC_e6c1c.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_e6c1c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e6c1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6c1c.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_e6c1c.dir/CheckFunctionExists.c.o  -o cmTC_e6c1c -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function connect exists passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_3c599/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_3c599.dir/build.make CMakeFiles/cmTC_3c599.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_1e61b/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_1e61b.dir/build.make CMakeFiles/cmTC_1e61b.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_3c599.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_3c599.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3c599
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c599.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_3c599.dir/CheckFunctionExists.c.o  -o cmTC_3c599 -rdynamic 
+Building C object CMakeFiles/cmTC_1e61b.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_1e61b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e61b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e61b.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_1e61b.dir/CheckFunctionExists.c.o  -o cmTC_1e61b -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function remove exists passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_b96a8/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_b96a8.dir/build.make CMakeFiles/cmTC_b96a8.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_23d19/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_23d19.dir/build.make CMakeFiles/cmTC_23d19.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_b96a8.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_b96a8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b96a8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b96a8.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_b96a8.dir/CheckFunctionExists.c.o  -o cmTC_b96a8 -rdynamic 
+Building C object CMakeFiles/cmTC_23d19.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_23d19.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23d19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d19.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_23d19.dir/CheckFunctionExists.c.o  -o cmTC_23d19 -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function shmat exists passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_3f8cf/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_3f8cf.dir/build.make CMakeFiles/cmTC_3f8cf.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_e2ed8/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_e2ed8.dir/build.make CMakeFiles/cmTC_e2ed8.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_3f8cf.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_3f8cf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3f8cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f8cf.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_3f8cf.dir/CheckFunctionExists.c.o  -o cmTC_3f8cf -rdynamic 
+Building C object CMakeFiles/cmTC_e2ed8.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_e2ed8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2ed8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2ed8.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_e2ed8.dir/CheckFunctionExists.c.o  -o cmTC_e2ed8 -rdynamic 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_385ea/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_385ea.dir/build.make CMakeFiles/cmTC_385ea.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_0bf70/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_0bf70.dir/build.make CMakeFiles/cmTC_0bf70.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_385ea.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_385ea.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_385ea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_385ea.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_385ea.dir/CheckFunctionExists.c.o  -o cmTC_385ea -rdynamic -lICE 
+Building C object CMakeFiles/cmTC_0bf70.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_0bf70.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0bf70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bf70.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_0bf70.dir/CheckFunctionExists.c.o  -o cmTC_0bf70 -rdynamic -lICE 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function glXGetProcAddress exists passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_c5ee6/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_c5ee6.dir/build.make CMakeFiles/cmTC_c5ee6.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_ef005/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_ef005.dir/build.make CMakeFiles/cmTC_ef005.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_c5ee6.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTC_c5ee6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c5ee6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5ee6.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTC_c5ee6.dir/CheckFunctionExists.c.o  -o cmTC_c5ee6 -rdynamic /usr/lib64/libGL.so 
+Building C object CMakeFiles/cmTC_ef005.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTC_ef005.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef005.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTC_ef005.dir/CheckFunctionExists.c.o  -o cmTC_ef005 -rdynamic /usr/lib64/libGL.so 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function glXGetProcAddressARB exists passed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_b727e/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_b727e.dir/build.make CMakeFiles/cmTC_b727e.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_11889/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_11889.dir/build.make CMakeFiles/cmTC_11889.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_b727e.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTC_b727e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b727e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b727e.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTC_b727e.dir/CheckFunctionExists.c.o  -o cmTC_b727e -rdynamic /usr/lib64/libGL.so 
+Building C object CMakeFiles/cmTC_11889.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTC_11889.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11889
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11889.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTC_11889.dir/CheckFunctionExists.c.o  -o cmTC_11889 -rdynamic /usr/lib64/libGL.so 
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 

@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_784d8/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_784d8.dir/build.make CMakeFiles/cmTC_784d8.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_468cd/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_468cd.dir/build.make CMakeFiles/cmTC_468cd.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_784d8.dir/CheckSymbolExists.c.o
-/usr/sbin/cc     -o CMakeFiles/cmTC_784d8.dir/CheckSymbolExists.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_784d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_784d8.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_784d8.dir/CheckSymbolExists.c.o  -o cmTC_784d8 -rdynamic 
-CMakeFiles/cmTC_784d8.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_468cd.dir/CheckSymbolExists.c.o
+/usr/sbin/cc     -o CMakeFiles/cmTC_468cd.dir/CheckSymbolExists.c.o   -c /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_468cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_468cd.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_468cd.dir/CheckSymbolExists.c.o  -o cmTC_468cd -rdynamic 
+CMakeFiles/cmTC_468cd.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: Fehler: ld gab 1 als Ende-Status zurück
-CMakeFiles/cmTC_784d8.dir/build.make:97: die Regel für Ziel „cmTC_784d8“ scheiterte
-make[1]: *** [cmTC_784d8] Fehler 1
+CMakeFiles/cmTC_468cd.dir/build.make:97: die Regel für Ziel „cmTC_468cd“ scheiterte
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
-Makefile:126: die Regel für Ziel „cmTC_784d8/fast“ scheiterte
-make: *** [cmTC_784d8/fast] Fehler 2
+make[1]: *** [cmTC_468cd] Fehler 1
+Makefile:126: die Regel für Ziel „cmTC_468cd/fast“ scheiterte
+make: *** [cmTC_468cd/fast] Fehler 2
 
 File /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,41 +36,41 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_fd84d/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_fd84d.dir/build.make CMakeFiles/cmTC_fd84d.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_8b301/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_8b301.dir/build.make CMakeFiles/cmTC_8b301.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_fd84d.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fd84d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fd84d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd84d.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fd84d.dir/CheckFunctionExists.c.o  -o cmTC_fd84d -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_8b301.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8b301.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b301.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8b301.dir/CheckFunctionExists.c.o  -o cmTC_8b301 -rdynamic -lpthreads 
 /usr/sbin/ld: cannot find -lpthreads
 collect2: Fehler: ld gab 1 als Ende-Status zurück
-CMakeFiles/cmTC_fd84d.dir/build.make:97: die Regel für Ziel „cmTC_fd84d“ scheiterte
+CMakeFiles/cmTC_8b301.dir/build.make:97: die Regel für Ziel „cmTC_8b301“ scheiterte
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
-make[1]: *** [cmTC_fd84d] Fehler 1
-Makefile:126: die Regel für Ziel „cmTC_fd84d/fast“ scheiterte
-make: *** [cmTC_fd84d/fast] Fehler 2
+make[1]: *** [cmTC_8b301] Fehler 1
+Makefile:126: die Regel für Ziel „cmTC_8b301/fast“ scheiterte
+make: *** [cmTC_8b301/fast] Fehler 2
 
 
 Determining if the function glXGetProcAddressEXT exists failed with the following output:
 Change Dir: /home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_f60c8/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_f60c8.dir/build.make CMakeFiles/cmTC_f60c8.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_b0ea9/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_b0ea9.dir/build.make CMakeFiles/cmTC_b0ea9.dir/build
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_f60c8.dir/CheckFunctionExists.c.o
-/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_f60c8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f60c8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f60c8.dir/link.txt --verbose=1
-/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTC_f60c8.dir/CheckFunctionExists.c.o  -o cmTC_f60c8 -rdynamic /usr/lib64/libGL.so 
-CMakeFiles/cmTC_f60c8.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_b0ea9.dir/CheckFunctionExists.c.o
+/usr/sbin/cc    -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_b0ea9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0ea9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0ea9.dir/link.txt --verbose=1
+/usr/sbin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTC_b0ea9.dir/CheckFunctionExists.c.o  -o cmTC_b0ea9 -rdynamic /usr/lib64/libGL.so 
+CMakeFiles/cmTC_b0ea9.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x15): undefined reference to `glXGetProcAddressEXT'
 collect2: Fehler: ld gab 1 als Ende-Status zurück
-CMakeFiles/cmTC_f60c8.dir/build.make:98: die Regel für Ziel „cmTC_f60c8“ scheiterte
+CMakeFiles/cmTC_b0ea9.dir/build.make:98: die Regel für Ziel „cmTC_b0ea9“ scheiterte
+make[1]: *** [cmTC_b0ea9] Fehler 1
 make[1]: Verzeichnis „/home/vade9658/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
-make[1]: *** [cmTC_f60c8] Fehler 1
-Makefile:126: die Regel für Ziel „cmTC_f60c8/fast“ scheiterte
-make: *** [cmTC_f60c8/fast] Fehler 2
+Makefile:126: die Regel für Ziel „cmTC_b0ea9/fast“ scheiterte
+make: *** [cmTC_b0ea9/fast] Fehler 2
 
 

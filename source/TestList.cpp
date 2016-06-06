@@ -3,14 +3,14 @@
 #include <cmath>
 #include "List.hpp"
 
-template <typename T>
+/*template <typename T>
 List<T> reverse(List<T> const& l)
 {
 	List<T> n{l}; //kopie von l
 	n.reverse();
 	return n;
 }
-
+*/
 TEST_CASE("Empty","[empty]")
 {
 	List<int> list1;
@@ -84,7 +84,7 @@ TEST_CASE("Clear","[clear]")
 	REQUIRE(list.empty() == true);
 }
 
-TEST_CASE("should be an empty range after default construction","[iterators]")
+/*TEST_CASE("should be an empty range after default construction","[iterators]")
 {
 	List<int> list;
 	auto b = list.begin();
@@ -110,21 +110,21 @@ TEST_CASE("equal_or_nah","[eon]")
 	list2.push_front(30);
 	list2.push_front(12);
 	list2.push_front(42);
-	REQUIRE(list3 == list4);
+	REQUIRE(list1 == list2);
 }
 
-TEST_CASE("different or not","[different or not]")
+TEST_CASE("Different","[different]")
 {
-	List<int> list;
-	list.push_front(30);
-	list.push_front(12);
-	list.push_front(18);
+	List<int> list1;
+	list1.push_front(30);
+	list1.push_front(12);
+	list1.push_front(18);
 
 	List <int> list2;
 	list2.push_front(30);
 	list2.push_front(12);
 	list2.push_front(42);
-	REQUIRE(list3 != list4);
+	REQUIRE(list1 != list2);
 }
 
 TEST_CASE("copy constructor","[constructor]")
@@ -138,15 +138,13 @@ TEST_CASE("copy constructor","[constructor]")
 	REQUIRE(list == list2);
 }
 
-TEST_CASE("insert","[insert]")
+TEST_CASE("Insert","[insert]")
 {
 	List<int> list;
-	list.push_front(1);
-	list.push_front(2);
-	list.push_front(3);
-	list.push_front(4);
-	list.push_front(5);
-	list.push_front(6);
+	list.push_front(11);
+	list.push_front(12);
+	list.push_back(13);
+	list.push_back(9);
 
 	ListIterator<int> i = list.begin();
 	i++;
@@ -154,26 +152,20 @@ TEST_CASE("insert","[insert]")
 
 	list.insert(100,i);
 
-	REQUIRE(list.size() == 7);
-	REQUIRE(*list.begin() == 6);
+	REQUIRE(list.size() == 5);
+	REQUIRE(*list.begin() == 12);
 }
 
-TEST_CASE("reverses the sequence of the list", "[reverse]")
+TEST_CASE("Reverse", "[reverse]")
 {  
   List<int> list; 
   list.push_back(1); 
   list.push_back(2); 
   list.push_back(3); 
   list.push_back(4); 
-  list.push_back(5);
-  list.push_back(6);
 
   list.reverse();
   ListIterator<int> i = list.begin();
-  REQUIRE(6 == *i);
-  ++i;
-  REQUIRE(5 == *i);
-  ++i;
   REQUIRE(4 == *i);
   ++i; 
   REQUIRE(3 == *i);
@@ -184,10 +176,6 @@ TEST_CASE("reverses the sequence of the list", "[reverse]")
 
   reverse(list);
   ListIterator<int> it = list.begin();
-  REQUIRE(6 == *it);
-  ++it;
-  REQUIRE(5 == *it);
-  ++it;
   REQUIRE(4 == *it);
   ++it; 
   REQUIRE(3 == *it);
@@ -201,16 +189,15 @@ TEST_CASE("reverses the sequence of the list", "[reverse]")
 TEST_CASE("move constructor","[constructor]")
 {
 	List<int> list;
-	list.push_front(1);
-	list.push_front(2);
-	list.push_front(3);
-	list.push_front(4);
+	list.push_front(30);
+	list.push_front(12);
+	list.push_front(42);
 	List<int> list2(std::move(list));
 	REQUIRE( 0 == list.size());
 	REQUIRE(list.empty());
-	REQUIRE(4 == list2.size());
+	REQUIRE(3 == list2.size());
 }
-
+*/
 int main(int argc, char *argv[])
 {
   return Catch::Session().run(argc,argv);

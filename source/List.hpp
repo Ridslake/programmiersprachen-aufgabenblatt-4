@@ -38,7 +38,7 @@ struct ListIterator
   typedef T value_type;
   typedef T* pointer;
   typedef T& reference;
-  typedef ptrdiff_t diffrence_type;
+  typedef ptrdiff_t difference_type;
   typedef std::forward_iterator_tag iterator_category;
 
   friend class List<T>;
@@ -46,30 +46,39 @@ struct ListIterator
   ListIterator() : m_node(nullptr){}
   ListIterator(ListNode<T>* n) : m_node(n) {}
 
-//returns the value
+//returns the value of the node
   reference operator*() const
 	{
-	  return m_node->m_value;	
+	  return (m_node->m_value); //Gibt den Wert direkt zurück	
 	}
 //returns the place of m_value
   pointer operator->() const
 	{
-	  return &(m_node->m_value);
+	  return &(m_node->m_value); //Übergabe mit einem Zeiger, Referenz auf das Objekt
 	}
+
 //iterator +1, orginal
   Self& operator++()
   {
-  	*this = next();
-	return *this; //iterator points at the next orignial node
+  if(m_node)
+ 	{
+	m_node = m_node -> m_next; //next node
+	}
+  return *this;
   }
 
 //value, before it+1
   Self operator++(int)
   {
-	Self tmp= *this;
-	++(*this);
-	return tmp; //iterator
+  ListIterator tmp(*this); //gibt aktuellen Wert zurueck vor erhoehen
+	if(m_node)
+	{
+	m_node = m_node -> m_next;
+	}
+
+  return tmp;
   }
+
 //node same value as x?
   bool operator==(const Self& x) const
   {
@@ -80,6 +89,7 @@ struct ListIterator
   {
 	return m_node != x.m_node;
   }
+
 //next
   Self next() const
   {
@@ -117,11 +127,11 @@ class List
 public:
   typedef T value_type;
   typedef T* pointer;
-  typedef const T* const_pointer
+  typedef const T* const_pointer;
   typedef T& reference;
   typedef const T& const_reference;
   typedef ListIterator<T> iterator;
-  typedef ListConstIterator<T> const_interator;
+  typedef ListConstIterator<T> const_iterator;
 
   friend class ListIterator<T>;
   friend class ListConstIterator<T>;
@@ -138,7 +148,7 @@ public:
   m_first(nullptr),
   m_last(nullptr) 
   {
-	for(auto i = thelist.begin(); it != thelist.end(); i++)
+	for(auto i = thelist.begin(); i != thelist.end(); i++)
 	{
 	  push_back(*i);
 	}
@@ -147,9 +157,9 @@ public:
 //Move Constructor
   List<T>(List<T> && thelist) :
   //adapt thelist 
-  m_size(thelist.m_size),
-  m_first(thelist.m_first),
-  m_last(thelist.m_last)
+  m_size{thelist.m_size},
+  m_first{thelist.m_first},
+  m_last{thelist.m_last}
   {
 	thelist.m_first = nullptr;
 	thelist.m_last = nullptr;
@@ -170,10 +180,10 @@ public:
 
   T const&  front() const
   {
-	return m_first->m_value;
+	return m_first->m_value; //m_first ist der Zeiger auf den ersten Wert
   }
 	
-  T& front
+  T& front()
   {
 	return m_first->m_value;
   }
@@ -183,7 +193,7 @@ public:
 	return m_last->m_value;
   }
 	
-  T& back
+  T& back ()
   {
 	return m_last->m_value;
   }
@@ -212,8 +222,8 @@ public:
 //4.9
   void reverse()
   {
-  List<T> rev{*this}; //copy der liste
-	clear(); //macht ganze Liste leer
+  List<T> rev{*this}; //copy
+	clear(); //clear
  
 	for(iterator i = rev.begin(); i!=rev.end(); ++i)
 	  push_front(*i);
